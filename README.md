@@ -104,11 +104,12 @@ body {
 ```
 
 ### Bower로 설치시 주의사항
+- 메인 `scss` 파일의 경로와 `bower_components`의 상대 경로를 정확히 확인해 주세요.
 - `gulp` 혹은 `grunt` 등 빌드 자동화 툴을 사용할 경우 각자 환경에 맞춰 이용해 주세요.
 
 ## 폰트 출처
 Noto Sans는 Google과 어도비가 합작해 개발한 웹폰트입니다. 라이센스는 [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) 입니다.
-- [NotoSans](https://www.google.com/get/noto/#/)
+- [Google Noto Fonts](https://www.google.com/get/noto/#/)
 - [NotoSans-subset](https://github.com/UYEONG/NotoSans-subset)
 
 ## 맺음말
