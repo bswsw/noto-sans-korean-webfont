@@ -74,7 +74,7 @@ $ bower install --save noto-sans-korean-webfont
 
 ```css
 /** css 파일 가져오기 */
-@import("../bower_components/noto-sans-korean-webfont/css/noto-sans-korean.css");
+@import("bower_components/noto-sans-korean-webfont/css/noto-sans-korean.css");
 
 /**
  * body에 폰트 적용.
