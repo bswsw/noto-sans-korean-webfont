@@ -1,0 +1,30 @@
+{
+  "name": "noto-sans-korean-webfont",
+  "authors": [
+    "Bae Sangwoo <manner1130@gmail.com>"
+  ],
+  "version": "1.0.0",
+  "description": "Noto Sans Korean Webfont for Web Developer",
+  "main": [
+    "scss/_noto-sans-korean.scss"
+  ],
+  "keywords": [
+    "notosans",
+    "notosanskorean",
+    "korean",
+    "font",
+    "webfont",
+    "noto-sans-korean",
+    "noto-sans",
+    "kr"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/andrewbae/noto-sans-korean-webfont",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
