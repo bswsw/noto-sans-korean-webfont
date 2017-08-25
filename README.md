@@ -1,4 +1,5 @@
 # Noto Sans Korean for Web Developer
+[![Bower version](https://badge.fury.io/bo/noto-sans-korean-webfont.svg)](https://badge.fury.io/bo/noto-sans-korean-webfont)
 
 `noto-sans-korean-webfont`는 웹 개발자를 위한 본고딕(Noto Sans Korean) 웹폰트 입니다.
 - 경량화된 폰트를 사용하여 빠른 속도로 로딩이 가능합니다. (약 `6.3MB`)
@@ -8,16 +9,16 @@
 
 직접 다운로드 하거나 `bower`를 이용할 수 있어요.
 
-* [Download](#a-download)
-* [Bower](#b-bower)
+* [Download](#1-download)
+* [Bower](#2-bower)
 
-### a. Download
+### 1. Download
 
 다운로드 받으셨다면 먼저 사용할 프로젝트의 원하는 경로에 넣어주세요.
 
-#### CSS 사용하기
+#### 1.1. CSS 사용하기
 
-사용하는 메인 `css` 파일 상단에 다음과 같이 입력하세요.
+사용하는 메인 `.css` 파일 상단에 다음과 같이 입력하세요.
 
 ```css
 /** css 파일 가져오기 */
@@ -37,9 +38,9 @@ body {
 - 다운받은 폴더의 경로를 정확히 확인해 주세요.
 - 내부의 폴더 (`css/`, `fonts/`) 경로를 이동할 경우  `css/noto-sans-korean.css` 파일에서 경로를 이동한 경로로 변경해 주어야 해요.
 
-#### SCSS 사용하기
+#### 1.2. SCSS 사용하기
 
-사용하는 메인 `scss` 파일 상단에 다음과 같이 입력하세요.
+사용하는 메인 `.scss` 파일 상단에 다음과 같이 입력하세요.
 
 ```sass
 // fonts 파일 경로 추가.
@@ -58,9 +59,9 @@ body {
 ##### 주의사항
 
 - 다운받은 폴더의 경로를 정확히 확인해 주세요.
-- `scss/`, `fonts/` 폴더의 위치를 마음대로 설정하셔도 `$noto-sans-korean-path`와 `scss/_noto-sans-korean.scss`만 `@import`를 정확히 해주시면 문제 없을거에요.
+- `scss/`, `fonts/` 폴더의 위치를 마음대로 설정하셔도 `$noto-sans-korean-path`와 `scss/_noto-sans-korean.scss`만 `@import`를 정확히 해주시면 문제는 없을거에요.
 
-### b. Bower
+### 2. Bower
 
 Bower Package를 받으세요.
 
@@ -68,9 +69,9 @@ Bower Package를 받으세요.
 $ bower install --save noto-sans-korean-webfont
 ```
 
-#### CSS 사용하기
+#### 2.1. CSS 사용하기
 
-사용하는 메인 `css` 파일 상단에 다음과 같이 입력하세요.
+사용하는 메인 `.css` 파일 상단에 다음과 같이 입력하세요.
 
 ```css
 /** css 파일 가져오기 */
@@ -85,9 +86,9 @@ body {
 }
 ```
 
-### SCSS 사용하기
+#### 2.2. SCSS 사용하기
 
-사용하는 메인 `scss` 파일 상단에 다음과 같이 입력하세요.
+사용하는 메인 `.scss` 파일 상단에 다음과 같이 입력하세요.
 
 ```sass
 // fonts 파일 경로 추가.
@@ -103,8 +104,8 @@ body {
 }
 ```
 
-### Bower로 설치시 주의사항
-- 메인 `scss` 파일의 경로와 `bower_components`의 상대 경로를 정확히 확인해 주세요.
+#### 2.3. Bower로 설치시 주의사항
+- 메인 `.scss` 파일의 경로와 `bower_components`의 상대 경로를 정확히 확인해 주세요.
 - `gulp` 혹은 `grunt` 등 빌드 자동화 툴을 사용할 경우 각자 환경에 맞춰 이용해 주세요.
 
 ## 폰트 출처
@@ -115,7 +116,7 @@ Noto Sans는 Google과 어도비가 합작해 개발한 웹폰트입니다. 라�
 ## 맺음말
 - 필요하신 분들은 자주 사용해 주세요.
 - 자유롭게 사용해 주세요.
-- 부족한 점이 많아요. `scss`, `css` 등 소스(?)에 개선할 부분이 있다면 언제든지 가르침을 주세요.
+- 부족한 점이 많아요. `.scss`, `.css` 등 소스(?)에 개선할 부분이 있다면 언제든지 가르침을 주세요.
 - 개발자 분들 모두 힘내세요!
 
 ## 개발자 정보
