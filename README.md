@@ -115,7 +115,7 @@ Noto Sans는 Google과 어도비가 합작해 개발한 웹폰트입니다. 라�
 - [Google Noto Fonts](https://www.google.com/get/noto/#/)
 - [NotoSans-subset](https://github.com/UYEONG/NotoSans-subset)
 
-## 개발자의 말
+## 개발자 한마디
 - 자유롭게 사용해 주세요.
 - 부족한 점이 많아요. 개선할 부분이 있다면 언제든지 가르침을 주세요.
 - 개발자 분들 모두 힘내세요!
