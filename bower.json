@@ -5,6 +5,10 @@
   ],
   "version": "1.0.0",
   "description": "Noto Sans Korean Webfont for Web Developer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewbae/noto-sans-korean-webfont"
+  },
   "main": [
     "scss/_noto-sans-korean.scss"
   ],
