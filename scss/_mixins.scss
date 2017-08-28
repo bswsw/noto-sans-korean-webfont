@@ -1,5 +1,4 @@
-// font-face mixin
-
+// str-replace mixin
 @mixin str-replace($string, $search, $replace: "") {
   $index: str-index($string, $search);
 
@@ -10,6 +9,7 @@
   @return $string;
 }
 
+// font-face mixin
 @mixin font-face($font-family, $font-path, $font-weight: null, $font-style: null, $exts: eot otf woff woff2) {
   $src: null;
 

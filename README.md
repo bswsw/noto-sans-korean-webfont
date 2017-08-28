@@ -93,7 +93,7 @@ body {
 사용하는 메인 `.scss` 파일 상단에 다음과 같이 입력하세요.
 
 ```sass
-// fonts 파일 경로 추가.
+// fonts 폴더 경로 추가.
 $noto-sans-korean-path: "../bower_components/noto-sans-korean-webfont/fonts/";
 
 // sass 파일 경로 추가.
@@ -110,15 +110,14 @@ body {
 - 메인 `.scss` 파일의 경로와 `bower_components`의 상대 경로를 정확히 확인해 주세요.
 - `gulp` 혹은 `grunt` 등 빌드 자동화 툴을 사용할 경우 각자 환경에 맞춰 이용해 주세요.
 
-## 폰트 출처
+## 폰트 출처 및 라이센스
 Noto Sans는 Google과 어도비가 합작해 개발한 웹폰트입니다. 라이센스는 [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) 입니다.
 - [Google Noto Fonts](https://www.google.com/get/noto/#/)
 - [NotoSans-subset](https://github.com/UYEONG/NotoSans-subset)
 
-## 맺음말
-- 필요하신 분들은 자주 사용해 주세요.
+## 개발자의 말
 - 자유롭게 사용해 주세요.
-- 부족한 점이 많아요. `.scss`, `.css` 등 소스(?)에 개선할 부분이 있다면 언제든지 가르침을 주세요.
+- 부족한 점이 많아요. 개선할 부분이 있다면 언제든지 가르침을 주세요.
 - 개발자 분들 모두 힘내세요!
 
 ## 개발자 정보
