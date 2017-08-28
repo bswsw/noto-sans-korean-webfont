@@ -1,4 +1,6 @@
 # Noto Sans Korean for Web Developer
+
+[![GitHub version](https://badge.fury.io/gh/andrewbae%2Fnoto-sans-korean-webfont.svg)](https://badge.fury.io/gh/andrewbae%2Fnoto-sans-korean-webfont)
 [![Bower version](https://badge.fury.io/bo/noto-sans-korean-webfont.svg)](https://badge.fury.io/bo/noto-sans-korean-webfont)
 
 `noto-sans-korean-webfont`는 웹 개발자를 위한 본고딕(Noto Sans Korean) 웹폰트 입니다.
@@ -43,7 +45,7 @@ body {
 사용하는 메인 `.scss` 파일 상단에 다음과 같이 입력하세요.
 
 ```sass
-// fonts 파일 경로 추가.
+// fonts 폴더 경로 추가.
 $noto-sans-korean-path: "path/noto-sans-korean-webfont/fonts/";
 
 // _noto-sans-korean.sass 파일 경로 추가.
